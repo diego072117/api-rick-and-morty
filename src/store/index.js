@@ -22,6 +22,7 @@ export default createStore({
         const data = await response.json()
         commit('setCharacters', data.results)
         commit('setCharactersFilter', data.results)
+        console.log(data.results)
 
       } catch (error) {
         console.error(error)
