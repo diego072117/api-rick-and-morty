@@ -1,18 +1,24 @@
 <template>
     <div class="container">
       <h1>Rick morty</h1>
+      <FilterByStatus />
+      <FilterByName />
       <ListCharacters/>
     </div>
 </template>
 
 <script>
 import ListCharacters from './components/ListCharacters.vue';
+import FilterByStatus from '@/components/FilterByStatus'
+import FilterByName from '@/components/FilterByName'
 
 
 export default {
   name: 'App',
   components: {
-    ListCharacters
+    ListCharacters,
+    FilterByStatus,
+    FilterByName
 }
 }
 </script>
