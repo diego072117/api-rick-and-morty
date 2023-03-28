@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-      <h1>Rick and morty</h1>
+      <h1>Rick and morty.</h1>
       <FilterByStatus />
       <FilterByName />
       <ListCharacters/>
